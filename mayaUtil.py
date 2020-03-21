@@ -4,6 +4,8 @@ import time
 import datetime
 import maya.cmds as cmds
 
+currentPath = os.path.dirname(__file__)
+
 class mayaInfo:
     
     info = {}
@@ -20,8 +22,6 @@ class mayaInfo:
         date     = datetime.datetime.now ().strftime("%Y/%m/%d")  # %H:%M
 
         return date    
-    
-    
     
     
     
